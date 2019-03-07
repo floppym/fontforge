@@ -34,7 +34,6 @@
 #include <ustring.h>
 #include <ffglib.h>
 #include <glib/gprintf.h>
-#include "xvasprintf.h"
 
 #define DEL_SPACE	6
 

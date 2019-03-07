@@ -75,7 +75,6 @@
 #include <windows.h>
 #endif
 
-#include "xvasprintf.h"
 
 
 int OpenCharsInNewWindow = 0;

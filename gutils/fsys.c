@@ -26,7 +26,7 @@
  */
 
 #include <stdio.h>
-#include "inc/basics.h"
+#include "basics.h"
 #include "ustring.h"
 #include "fileutil.h"
 #include "gfile.h"

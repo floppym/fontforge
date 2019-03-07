@@ -61,7 +61,6 @@ extern int _GScrollBar_Width;
 # include <ieeefp.h>		/* Solaris defines isnan in ieeefp rather than math.h */
 #endif
 #include "dlist.h"
-#include "c-strtod.h"
 
 #include "gutils/prefs.h"
 #include "collabclientui.h"

@@ -35,7 +35,6 @@
 #include <ustring.h>
 #include <ffglib.h>
 #include <glib/gprintf.h>
-#include "xvasprintf.h"
 
 #ifndef _NO_LIBUNINAMESLIST
 #include <uninameslist.h>

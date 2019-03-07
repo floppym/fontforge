@@ -26,8 +26,8 @@
  */
 #include <fontforge-config.h>
 
-#include "inc/gnetwork.h"
-#include "inc/ustring.h"
+#include "gnetwork.h"
+#include "ustring.h"
 
 #ifdef BUILD_COLLAB
 #include "czmq.h"

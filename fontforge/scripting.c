@@ -103,7 +103,6 @@
 
 #include "gutils/unicodelibinfo.h"
 
-#include "xvasprintf.h"
 
 int no_windowing_ui = false;
 int running_script = false;

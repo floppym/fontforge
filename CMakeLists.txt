@@ -36,6 +36,10 @@ pkg_check_modules(GLIB glib-2.0 REQUIRED)
 include_directories(${GLIB_INCLUDE_DIRS})
 link_directories(${GLIB_LIBRARY_DIRS})
 
+pkg_check_modules(GIO gio-2.0 REQUIRED)
+include_directories(${GIO_INCLUDE_DIRS})
+link_directories(${GIO_LIBRARY_DIRS})
+
 pkg_check_modules(FREETYPE freetype2 REQUIRED)
 include_directories(${FREETYPE_INCLUDE_DIRS})
 link_directories(${FREETYPE_LIBRARY_DIRS})
@@ -43,6 +47,10 @@ link_directories(${FREETYPE_LIBRARY_DIRS})
 pkg_check_modules(LIBXML2 libxml-2.0 REQUIRED)
 include_directories(${LIBXML2_INCLUDE_DIRS})
 link_directories(${LIBXML2_LIBRARY_DIRS})
+
+pkg_check_modules (ZLIB zlib REQUIRED)
+include_directories(${ZLIB_INCLUDE_DIRS})
+link_directories(${ZLIB_LIBRARY_DIRS})
 
 # Include directories
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/inc")
@@ -60,7 +68,9 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
 add_subdirectory(Unicode)
 add_subdirectory(gutils)
+#add_subdirectory(gdraw)
 add_subdirectory(fontforge)
+add_subdirectory(fontforgeexe)
 
 # Install options
 #install(TARGETS clipboard
